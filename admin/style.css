@@ -1,0 +1,7 @@
+.news-list ul { list-style: none; padding: 0px; }
+.news-list ul li { padding: 4px 0px; }
+.news-list input[type="submit"] { text-align: right; }
+
+.ajax-image-upload form { width: 100%; float: left; }
+.ajax-image-upload h4 { margin: 20px 0px; }
+.ajax-link { display: none; }
