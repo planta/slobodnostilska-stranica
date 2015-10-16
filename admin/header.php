@@ -8,7 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="../Style/style.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	
-	<script src="/Functions/jquery-1.11.3.min.js"></script>
+	<script src="../Functions/jquery-1.11.3.min.js"></script>
 	<script src="required.js"></script>
 	
 	<?php
@@ -32,7 +32,7 @@
 					<nav class="navigation">
 						<ul class="menu">
 							<li><a href="add-news">Add news</a></li>
-							<li><a href="articles">Add articles</a></li>
+							<li><a href="add-article">Add article</a></li>
 							<li><a href="image-gallery">Image gallery</a></li>
 							<li><a href="list-news">Edit news</a></li>
 						</ul>

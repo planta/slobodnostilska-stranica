@@ -1,8 +1,4 @@
 $(window).load(function() {
-	if($(window).width() < 768) {
-		
-	}
-	
 	$('#ajaxImageUpload').submit(function(event) {
 		event.preventDefault();
 		
@@ -16,5 +12,11 @@ $(window).load(function() {
 		}).done(function(data) {
 			$('.ajax-link').html(data).fadeIn();
 		});
+	});
+
+	$('.news-list input[type="submit"]').click(function(event) {
+		if(!confirm("Are you sure you want to delete this article?")) {
+			event.preventDefault();
+		}
 	});
 });

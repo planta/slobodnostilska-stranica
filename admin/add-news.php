@@ -88,7 +88,7 @@
 							<label>Or Upload image:</label>
 							<input type="file" name="file">
 							<input type="hidden" name="addNews" value="addNews">
-							<input type="submit" value"Submit">	
+							<input type="submit" value"Submit" class="btn-submit">	
 						</form>
 					</div>
 					<div class="col-md-4 col-sm-4 col-xs-12 ajax-image-upload">
@@ -100,7 +100,7 @@
 							<label for="image">Image</label>
 							<input type="file" name="image" id="image">
 							<input type="hidden" name="uploadImage" value="uploadImage">
-							<input type="submit" value="upload">
+							<input type="submit" value="upload" class="btn-submit">
 						</form>
 						
 						<h4 class="ajax-link"></h4>

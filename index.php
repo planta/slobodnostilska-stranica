@@ -1,20 +1,20 @@
 <?php
-  $dbc = mysqli_connect('localhost', 'artballer', 'Artball17', 'theartball') or die("It's not you, it's us! Our database doesn't work at the moment, please come back in a few minutes.");
+	include("Functions/initialize.php");
 
-  if(!empty($_POST['subscribe'])) {
-    $email = mysqli_real_escape_string($dbc, $_POST['email']);
-    
-    $query = "SELECT id FROM subscribers WHERE email = '$email';";
-    $result = mysqli_query($dbc, $query);
-    
-    if(mysqli_num_rows($result) == 0) {
-      $salt = "theartballers";
-      $hash = md5($email.$salt);
-      
-      $query = "INSERT INTO subscribers (email, hash) VALUES ('$email', '$hash');";
-      $result = mysqli_query($dbc, $query);
-    }
-  }
+	if(!empty($_POST['subscribe'])) {
+		$email = mysqli_real_escape_string($dbc, $_POST['email']);
+
+		$query = "SELECT id FROM subscribers WHERE email = '$email';";
+		$result = mysqli_query($dbc, $query);
+
+		if(mysqli_num_rows($result) == 0) {
+			$salt = "theartballers";
+			$hash = md5($email.$salt);
+
+			$query = "INSERT INTO subscribers (email, hash) VALUES ('$email', '$hash');";
+			$result = mysqli_query($dbc, $query);
+		}
+	}
 ?>
 
 <!DOCTYPE html>

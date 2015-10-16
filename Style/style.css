@@ -19,8 +19,8 @@
 * { box-sizing: border-box; font-family: "Roboto"!important; }
 
 .input { width: 100%; display: block; }
-input[type="submit"] { float: right; padding: 10px 20px 6px 20px; border: 0px; font-size: 1em; font-weight: bold; text-align: center; margin: 10px 0px 0px 0px; color: white; background: #008AE5; border-bottom: 4px solid #0076C3; }
-input[type="submit"]:hover { background: #0F9AF6; }
+.btn-submit { float: right; padding: 10px 20px 6px 20px; border: 0px; font-size: 1em; font-weight: bold; text-align: center; margin: 10px 0px 0px 0px; color: white; background: #008AE5; border-bottom: 4px solid #0076C3; }
+.btn-submit:hover { background: #0F9AF6; }
 label { margin: 10px 0px 4px 0px; font-size: 1em; font-weight: normal; }
 .main-container { margin-top: 50px; }
 
