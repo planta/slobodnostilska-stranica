@@ -52,7 +52,7 @@
 					}
 				
 					$sql = "INSERT INTO news (title, content, category, author, image, date, important) VALUES ('$title', '$content', '$category', '$author', '$imageURL', '$date', '$important');";
-				
+					
 					if(mysqli_query($dbc, $sql)) {
 						echo "News has been succesfully added. Thank You.";
 					}

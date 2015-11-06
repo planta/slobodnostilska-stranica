@@ -40,6 +40,9 @@ header .logo:hover { background-color: #0F9AF6; border-bottom: 4px solid #008AE5
 .navigation ul li a { text-transform: uppercase; float: left; color: white; height: 50px; padding: 15px 20px; border-bottom: 4px solid #0076C3; font-size: 1em; }
 .navigation ul li a:hover { background-color: #0F9AF6; border-bottom-color: #008AE5; text-decoration: none; }
 
+.add-listing .image-upload-button { width: 100%; margin: 10px 0px; background: red; color: white; border: none; }
+.add-listing input[type="file"] { display: none; }
+
 .image-cell { height: 300px; margin: 15px 0px; }
 .image-cell:hover { transform: scale(1.1); -ms-transform: scale(1.1); -moz-transform: scale(1.1); -webkit-transform: scale(1.1); -o-transform: scale(1.1); }
 .image-cell img { width: 100%; height: 100%; object-fit: cover; box-shadow: 0px 0px 15px #888888; }
